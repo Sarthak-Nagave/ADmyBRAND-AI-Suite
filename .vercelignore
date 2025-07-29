@@ -1,0 +1,34 @@
+# Node and development folders
+node_modules/
+.git/
+.vscode/
+.idea/
+logs/
+*.log
+
+# Test files and test-related folders
+__tests__/
+*.test.*
+*.spec.*
+*.tsbuildinfo
+
+# Docs and personal notes
+README.md
+*.md
+notes/
+docs/
+
+# Dev-only config files
+*.config.*
+tsconfig.json
+vite.config.ts
+
+# Dev source folders (already built to dist/)
+src/
+client/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
