@@ -1,0 +1,57 @@
+Act as a senior full-stack AI developer. Create a complete, production-ready, modern SaaS landing page project for a fictional AI product called "ADmyBRAND AI Suite", based on the detailed hiring task below.
+
+Include everything from Landing Page Sections, UI/UX design trends, technical implementation, and bonus features. Use modern best practices, build reusable components, and make it beautiful and mobile-friendly.
+
+🔧 Tech Stack:
+- Next.js 14+ with App Router
+- TypeScript
+- Tailwind CSS
+- Framer Motion (for scroll/entry animations)
+- React Hook Form + Zod (for form validation)
+
+🎯 Functional Requirements:
+1. **Hero Section** – headline, subtext, CTA, hero image/video
+2. **Features Section** – at least 6 features using icons and descriptions
+3. **Pricing Cards** – 3 pricing tiers using reusable PricingCard component
+4. **Testimonials Carousel** – photo + review
+5. **FAQ Section** – accordion/collapsible Q&A
+6. **Footer** – links, social media, contact
+
+🧱 Component Library (Reusable):
+- Button
+- Card
+- FeatureCard
+- PricingCard
+- TestimonialCard
+- Modal
+- Accordion (for FAQ)
+- ContactFormInput
+
+🎨 UI/UX Requirements:
+- Modern 2025 design trends: glassmorphism, subtle animations, soft shadows
+- Smooth scroll animations using Framer Motion
+- Clear typography hierarchy (headings, subtext, captions)
+- Mobile-first responsive design for all sections
+- Dark/light mode toggle (optional)
+- Beautiful loading states or skeletons (optional)
+
+⚙️ Technical Features:
+- Optimized images using `next/image`
+- Contact form with validation and error handling
+- Semantic HTML with accessibility features (e.g., ARIA labels)
+- Lazy loading and fast performance
+- Code splitting and clean architecture
+
+✨ Bonus Features (include if possible):
+- Interactive pricing calculator
+- Blog/resources section (just static cards or layout)
+- Advanced animations using Framer Motion
+
+📄 Output Requirements:
+- Complete codebase (app/, components/, styles/, public/, etc.)
+- `README.md` with setup, features, and deployment guide
+- `AI_USAGE_REPORT.md` with tools used, sample prompts, manual vs AI work
+- Deployment ready (Vercel preferred)
+- Package all files into a clean GitHub-style ZIP project
+
+Please generate the full project step-by-step or as a downloadable ZIP.
